@@ -1,0 +1,10 @@
+*~
+**/target
+**/.DS_Store
+*.swp
+**/.classpath
+**/.project
+**/.settings/
+**/bin/
+**/out/
+**/src/main/webapp/WEB-INF/classes/
