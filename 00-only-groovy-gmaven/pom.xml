@@ -87,30 +87,10 @@
         </configuration>
         <executions>
           <execution>
-            <id>gmaven-generate-stubs</id>
-            <phase>generate-sources</phase>
             <goals>
               <goal>generateStubs</goal>
-            </goals>
-          </execution>
-          <execution>
-            <id>gmaven-compile</id>
-            <phase>compile</phase>
-            <goals>
               <goal>compile</goal>
-            </goals>
-          </execution>
-          <execution>
-            <id>gmaven-generate-test-stubs</id>
-            <phase>generate-test-sources</phase>
-            <goals>
               <goal>generateTestStubs</goal>
-            </goals>
-          </execution>
-          <execution>
-            <id>gmaven-generate-test-compile</id>
-            <phase>test-compile</phase>
-            <goals>
               <goal>testCompile</goal>
             </goals>
           </execution>
