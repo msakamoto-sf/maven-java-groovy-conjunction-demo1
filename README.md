@@ -7,7 +7,8 @@ Maven Samples for Groovy and Java Conjunction Project.
 
 - [Groovy - The groovyc Ant Task](http://groovy.codehaus.org/The+groovyc+Ant+Task)
 - [Maven AntRun Plugin](http://maven.apache.org/plugins/maven-antrun-plugin/)
-- [GMaven](http://docs.codehaus.org/display/GMAVEN/Home)
+- [GMaven](http://groovy.github.io/gmaven/) (not recomendded. GMaven 2.x no longer supports any integration for compilation of Groovy sources.)
+- [Groovy Eclipse Maven plugin](https://github.com/groovy/groovy-eclipse/wiki/Groovy-Eclipse-Maven-plugin) (modern & latest at 2016-04)
 
 sample1 : 00-only-groovy-antrun
 ------
@@ -69,5 +70,8 @@ sample6 : 02-java-refer-groovy-gmaven
   5. `*.java` codes under `src/test/java` are compiled by maven-compile-plugin in `test-compile` phase with Java stub files.
   6. GMaven compiles `*.groovy` codes under `src/test/groovy` via `groovy:testCompile` golad in `test-compile` phase.
 
+sample7-9 : 00-only-groovy-201604, 01-groovy-refer-java-201604, 02-java-refer-groovy-201604
+------
 
+- compile `*.groovy` by Groovy Eclipse Maven plugin ( https://github.com/groovy/groovy-eclipse/wiki/Groovy-Eclipse-Maven-plugin ).
 
